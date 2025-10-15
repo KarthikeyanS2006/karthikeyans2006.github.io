@@ -213,8 +213,8 @@ function renderSkills() {
                         <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-name"><span>MongoDB</span><span>80%</span></div>
-                        <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        <div class="skill-name"><span>MongoDB</span><span>50%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 50%"></div></div>
                     </div>
                     <div class="skill-item">
                         <div class="skill-name"><span>Git</span><span>90%</span></div>
@@ -225,16 +225,16 @@ function renderSkills() {
                 <div class="skill-category">
                     <h3>Mobile Development</h3>
                     <div class="skill-item">
-                        <div class="skill-name"><span>Android (Kotlin)</span><span>80%</span></div>
-                        <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        <div class="skill-name"><span>Android (Kotlin)</span><span>20%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 20%"></div></div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-name"><span>Flutter</span><span>85%</span></div>
-                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-name"><span>Firebase</span><span>75%</span></div>
+                        <div class="skill-name"><span>Flutter</span><span>75%</span></div>
                         <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name"><span>Firebase</span><span>65%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 65%"></div></div>
                     </div>
                 </div>
             </div>
@@ -368,3 +368,4 @@ document.addEventListener('DOMContentLoaded', async () => {
     new NavigationAnimator();
     router.handleRoute();
 });
+

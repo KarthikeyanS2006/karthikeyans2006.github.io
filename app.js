@@ -118,12 +118,10 @@ function renderCertificate() {
             <h2 class="section-title">Certificates <span>of Me</span></h2>
             <p class="section-subtitle">Get to know more about what i earned</p>
             
-            <div class="about-content">
-               <div align="center">
-                      <img src="/images/download.png" 
-                         alt="HackerRank Certificate" 
-                         style="width:100%; max-width:800px; height:auto; display:block; margin:0 auto; border:2px solid #ccc; padding:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);" />
-            </div>
+           
+               <div align ="center">
+                      <img src="/images/download.png" alt="HackerRank Certificate"  />
+           
                
             
             </div>
@@ -391,6 +389,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     new NavigationAnimator();
     router.handleRoute();
 });
+
 
 
 

@@ -110,6 +110,45 @@ function renderAbout() {
     `;
 }
 
+// Certificate
+function renderCertificate() {
+    const app = document.getElementById('app');
+    app.innerHTML = `
+        <section class="Certificates-section">
+            <h2 class="section-title">Certificates <span>of Me</span></h2>
+            <p class="section-subtitle">Get to know more about what i earned</p>
+            
+            <div class="about-content">
+                <div class="about-text">
+               <iframe
+              src="https://www.hackerrank.com/certificates/iframe/edd46a7f4055"
+              title="HackerRank Certificate"
+              style="width:100%; max-width:1200px; height:600px; border:0; display:block; margin:0 auto;"
+              allowfullscreen>
+            </iframe>
+
+                </div>
+                
+                <div class="github-stats">
+                    <div class="stat-box">
+                        <h3>${githubData.user?.public_repos || 0}</h3>
+                        <p>Repositories</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>${githubData.user?.followers || 0}</h3>
+                        <p>Followers</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>${githubData.user?.following || 0}</h3>
+                        <p>Following</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    `;
+}
+
+
 // Projects Page
 function renderProjects() {
     const app = document.getElementById('app');
@@ -368,4 +407,5 @@ document.addEventListener('DOMContentLoaded', async () => {
     new NavigationAnimator();
     router.handleRoute();
 });
+
 

@@ -397,6 +397,7 @@ router.route('/', renderHome);
 router.route('/about', renderAbout);
 router.route('/projects', renderProjects);
 router.route('/skills', renderSkills);
+router.route('/Certificate',renderCertificate);
 router.route('/contact', renderContact);
 router.route('/404', render404);
 
@@ -407,5 +408,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     new NavigationAnimator();
     router.handleRoute();
 });
+
 
 

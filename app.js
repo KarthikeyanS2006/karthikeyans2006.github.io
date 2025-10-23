@@ -114,82 +114,78 @@ function renderAbout() {
 function renderCertificate() {
     const app = document.getElementById('app');
     app.innerHTML = `
-        <section class="Certificates-section">
-            <h2 class="section-title">Certificates <span>of Me</span></h2>
-            <p class="section-subtitle">Get to know more about what i earned</p>
-            
-           
-               <div align ="center">
-                   <img src="/images/download.png"
-     alt="HackerRank Certificate"
-     style="width:480px; height:auto; display:block; margin:0 auto; border-radius:6px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <div align="center">
-            <strong> Javascript (Basics)</strong>
-        
-        </div>
-           
-               
-            
-            </div>
-            <br>
-            <br>
-              <img src="/images/Cybersecurity.png"
-     alt="HackerRank Certificate"
-     style="width:480px; height:auto; display:block; margin:0 auto; border-radius:6px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <div align="center">
-            <strong>Cybersecurity by Tech Mahindra Foundation through Skill India Digital. </strong>
-        
-        </div>
-                <br>
-            <br>
-              <img src="/images/aiforbegiiners.png"
-     alt="HackerRank Certificate"
-     style="width:480px; height:auto; display:block; margin:0 auto; border-radius:6px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <div align="center">
-            <strong>HP LIFE online course AI for Beginners </strong>
-        
-        </div>
-              <br>
-            <br>
-              <img src="/images/introdectionenterpernrship.png"
-     alt="HackerRank Certificate"
-     style="width:480px; height:auto; display:block; margin:0 auto; border-radius:6px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <div align="center">
-            <strong>Introduction to Entrepreneurship Skills a course offered by NSDC through Skill India Digital Hub.</strong>
-        
-        </div>
-            <br>
-            <br>
-              <img src="/images/introdectiontollm.png"
-     alt="HackerRank Certificate"
-     style="width:480px; height:auto; display:block; margin:0 auto; border-radius:6px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <div align="center">
-            <strong>Introduction to Large Language Models by SimpleLearn,Google cloud</strong>
-        
-        </div>
-                <br>
-            <br>
-              <img src="/images/masterdatamanagement.png"
-     alt="HackerRank Certificate"
-     style="width:480px; height:auto; display:block; margin:0 auto; border-radius:6px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <div align="center">
-            <strong>Master Data Management for Beginners By TCS , TCS iON/strong>
-        
-        </div>
-             <br>
-            <br>
-              <img src="/images/understandingcustomerdetails.png"
-     alt="HackerRank Certificate"
-     style="width:480px; height:auto; display:block; margin:0 auto; border-radius:6px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <div align="center">
-            <strong>Understanding the customer services a course offered by NSDC through Skill India Digital Hub. /strong>
-        
-        </div>
-              
-               
-            
-            </div>
-        </section>
+      <section class="Certificates-section">
+   <h2 class="section-title">Certificates <span>of Me</span></h2>
+   <p class="section-subtitle">Get to know more about what i earned</p>
+
+
+   <div align="center">
+      <img src="/images/download.png" alt="HackerRank Certificate"
+         style="width:480px; height:auto; display:block; margin:0 auto; border-radius:6px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+      <div align="center"><br><br>
+         <strong> Javascript (Basics)</strong>
+
+      </div>
+
+
+
+   </div>
+   <br>
+   <br>
+   <img src="/images/Cybersecurity.png" alt="HackerRank Certificate"
+      style="width:480px; height:auto; display:block; margin:0 auto; border-radius:6px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+   <div align="center"><br><br>
+      <strong>Cybersecurity by Tech Mahindra Foundation through Skill India Digital. </strong>
+
+   </div>
+   <br>
+   <br>
+   <img src="/images/aiforbegiiners.png" alt="HackerRank Certificate"
+      style="width:480px; height:auto; display:block; margin:0 auto; border-radius:6px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+   <div align="center">
+      <strong>HP LIFE online course AI for Beginners </strong>
+
+   </div>
+   <br>
+   <br>
+   <img src="/images/introdectionenterpernrship.png" alt="HackerRank Certificate"
+      style="width:480px; height:auto; display:block; margin:0 auto; border-radius:6px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+   <div align="center"><br><br>
+      <strong>Introduction to Entrepreneurship Skills a course offered by NSDC through Skill India Digital Hub.</strong>
+
+   </div>
+   <br>
+   <br>
+   <img src="/images/introdectiontollm.png" alt="HackerRank Certificate"
+      style="width:480px; height:auto; display:block; margin:0 auto; border-radius:6px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+   <div align="center">
+      <br>
+      <br>
+      <strong>Introduction to Large Language Models by SimpleLearn,Google cloud</strong>
+
+   </div>
+   <br>
+   <br>
+   <img src="/images/masterdatamanagement.png" alt="HackerRank Certificate"
+      style="width:480px; height:auto; display:block; margin:0 auto; border-radius:6px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+   <div align="center">
+      <strong>Master Data Management for Beginners By TCS , TCS iON</strong>
+
+   </div>
+   <br>
+   <br>
+   <img src="/images/understandingcustomerdetails.png" alt="HackerRank Certificate"
+      style="width:480px; height:auto; display:block; margin:0 auto; border-radius:6px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+   <div align="center"><br>
+      <br>
+      <strong>Understanding the customer services a course offered by NSDC through Skill India Digital Hub. </strong>
+
+   </div>
+
+
+
+   </div>
+</section>
     `;
 }
 
@@ -453,6 +449,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     new NavigationAnimator();
     router.handleRoute();
 });
+
 
 
 

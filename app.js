@@ -120,12 +120,9 @@ function renderCertificate() {
             
             <div class="about-content">
                 <div class="about-text">
-               <iframe
-              src="https://www.hackerrank.com/certificates/iframe/edd46a7f4055"
-              title="HackerRank Certificate"
-              style="width:100%; max-width:1200px; height:600px; border:0; display:block; margin:0 auto;"
-              allowfullscreen>
-            </iframe>
+                      <img src="https://www.hackerrank.com/certificates/edd46a7f4055" 
+                         alt="HackerRank Certificate" 
+                         style="width:100%; max-width:800px; height:auto; display:block; margin:0 auto; border:2px solid #ccc; padding:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);" />
 
                 </div>
                 
@@ -408,6 +405,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     new NavigationAnimator();
     router.handleRoute();
 });
+
 
 
 

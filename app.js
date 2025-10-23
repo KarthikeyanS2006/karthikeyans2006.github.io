@@ -120,7 +120,7 @@ function renderCertificate() {
             
             <div class="about-content">
                 <div class="about-text">
-                      <img src="/images/download.jpg" 
+                      <img src="/images/download.png" 
                          alt="HackerRank Certificate" 
                          style="width:100%; max-width:800px; height:auto; display:block; margin:0 auto; border:2px solid #ccc; padding:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);" />
 
@@ -405,6 +405,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     new NavigationAnimator();
     router.handleRoute();
 });
+
 
 
 

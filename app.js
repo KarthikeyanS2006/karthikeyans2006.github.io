@@ -120,7 +120,7 @@ function renderCertificate() {
             
            
                <div align ="center">
-                      <img src="/images/download.png" alt="HackerRank Certificate"  />
+                      <img src="/images/download.png" alt="HackerRank Certificate" style="width:500px; max-width:800px; height:500px;" />
            
                
             
@@ -389,6 +389,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     new NavigationAnimator();
     router.handleRoute();
 });
+
 
 
 

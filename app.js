@@ -124,21 +124,8 @@ function renderCertificate() {
                          alt="HackerRank Certificate" 
                          style="width:100%; max-width:800px; height:auto; display:block; margin:0 auto; border:2px solid #ccc; padding:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);" />
 
-                </div>
-                
-                <div class="github-stats">
-                    <div class="stat-box">
-                        <h3>${githubData.user?.public_repos || 0}</h3>
-                        <p>Repositories</p>
-                    </div>
-                    <div class="stat-box">
-                        <h3>${githubData.user?.followers || 0}</h3>
-                        <p>Followers</p>
-                    </div>
-                    <div class="stat-box">
-                        <h3>${githubData.user?.following || 0}</h3>
-                        <p>Following</p>
-                    </div>
+               
+            
                 </div>
             </div>
         </section>
@@ -405,6 +392,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     new NavigationAnimator();
     router.handleRoute();
 });
+
 
 
 
